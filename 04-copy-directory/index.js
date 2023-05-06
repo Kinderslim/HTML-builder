@@ -3,7 +3,6 @@ const path = require('path');
 const fsPromises = require('node:fs/promises');
 
 let dirFrom = path.resolve(__dirname, 'files');
-console.log(dirFrom);
 let dirTo = path.resolve(__dirname, 'files-copy');
 
 function nothingFrom() {
